@@ -1,8 +1,46 @@
-This is a webpage for a radioamateur club so I guess this doesn't have much use to you.
+# Astro Starter Kit: Basics
 
-T̶h̶i̶s̶ ̶r̶e̶p̶o̶s̶i̶t̶o̶r̶y̶ ̶i̶s̶ ̶n̶o̶w̶ ̶a̶r̶c̶h̶i̶v̶e̶d̶.̶
- Now unarchived.
+```sh
+npm create astro@latest -- --template basics
+```
 
- Revamp ongoing.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-Pages URL: https://honza614.github.io/ok1kmr/
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src
+│   ├── assets
+│   │   └── astro.svg
+│   ├── components
+│   │   └── Welcome.astro
+│   ├── layouts
+│   │   └── Layout.astro
+│   └── pages
+│       └── index.astro
+└── package.json
+```
+
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
